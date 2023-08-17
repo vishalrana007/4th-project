@@ -1,0 +1,657 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#t li a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-small;
+}
+
+#hl {
+    background: white;
+    color: white;
+    height: 1px;
+    width: 200px;
+}
+
+#icon_1 {
+    margin-left: 335px;
+}
+
+
+#tk a{
+    color: white;
+    font-size: smaller;
+}
+
+#tk{
+    background: #000;
+  
+}
+
+#hed {
+    background: rgb(237, 7, 7);
+
+    font-size: x-small;
+    border-radius: 25px
+    ;
+}
+
+#t {
+    position: relative;
+}
+
+#para {
+    color: rgb(255, 0, 0);
+    font-size: x-small;
+    position: absolute;
+    left: 50px;
+    top: 52px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+
+}
+
+#indian {
+    margin-left: 700px;
+}
+
+#plane {
+    margin-top: -20px;
+    margin-left: -10px;
+}
+
+/*about searcg bar*/
+#search_bar {
+    width: 850px;
+    margin-left: 450px;
+    margin-top: 15px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.288);
+}
+
+#srbut {
+    width: 125px;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 15px;
+    background: red;
+    color: white;
+}
+#cards_1 {
+    width: 255px;
+}
+#t{
+    background: #000;
+}
+
+/*responsive of nav bar*/
+@media(max-width:412px) {
+
+#tk{
+    visibility: hidden;
+    height: 20px;
+    width: 20px;
+}
+#t{background: rgba(48, 46, 46, 0.887);
+    margin-top: -35px;
+ 
+
+    
+}
+#unor li a{
+    color: rgb(255, 255, 255);
+}
+#hed{
+    background: rgb(226, 12, 12)
+    ;
+}
+
+#para{
+    margin-top: 10px;
+    color: black;
+}
+
+#hed{
+    margin: 0px;
+    width: 35px;
+    text-align: center;
+    font-size: larger;
+}
+#menuicon{
+    border: 1px solid rgb(251, 251, 251);
+    color:rgb(118, 115, 115);
+
+}
+
+#sp{
+    color: red  ;
+  
+}
+#srch{
+    float: right;
+    margin-top: 35px;
+}
+#search_bar{
+    width: 260px;
+    margin-top: 15px;
+}
+#t_2{
+    color: rgb(0, 0, 0);
+}
+}
+/**about slides**/
+#nxt{
+    border: 1px solid rgb(255, 255, 255);
+    color: red;
+    background: red;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-top: 13%;
+    margin-right: 6%;
+}
+#pre{
+    border: 1px solid rgb(255, 255, 255);
+    color: red;
+    background: red;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    margin-top: 13%;
+    margin-left: 6%;
+}
+/**response of slide**/
+@media (max-width:412px) {
+    #sl{
+        margin-top: 100px;
+        height: 440px;
+    }
+    #pic_1{
+        height: 200px;
+    }
+    #nxt{
+        margin-top:95px;
+    }
+    #pre{
+        margin-top:95px
+    ;}
+ 
+}
+/**hover**/
+#tk a:hover, #t a:hover{
+    color: red;
+}
+#tour:hover, #tour_3:hover,#vistara:hover, #crdspic:hover{
+    filter: brightness(40%);
+}
+#hedo{
+    margin-left: 555px;
+    margin-top: 32px;
+}
+#paraofhedo{
+    margin-left: 285px;
+}
+@media (max-width:612px) {
+    #likhawat{position: relative;
+        margin-left: -275px;
+    }
+    #hedo{position: absolute;
+        left:-165px;
+        top: -240px;
+    }
+    #paraofhedo{
+        position: absolute;
+        top:-135px;
+        width: 355px;
+        left: 25px;
+    }
+}
+#tour, #tour_3{
+
+border-radius: 25px;
+height: 200px;
+cursor: pointer;
+transition: 1s;
+
+
+}
+#tour_1{
+    margin-left: 215px;
+    position: relative;
+}
+@media (max-width:412px) {
+    #tour_1{
+        margin-left: 0;
+        width: 300px;
+        margin-left: 60px;
+    }
+}
+#hedo_1{
+    margin-left: 545px;
+    margin-top: 32px;
+}
+#paraofhedo_1{
+    margin-left: 285px;
+}
+#tour_2{
+    margin-left: 200px;
+}
+#kprice{
+    color: rgba(54, 52, 52, 0.63);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media (max-width:412px) {
+    #hedo_1{
+        margin-left: 0;
+        width: 300px;
+        margin-left: 80px;
+        font-size: 25px;
+    }
+    #paraofhedo_1{
+        width: 300px;
+        margin-left: 0;
+        margin-left: 65px;
+        font-size: 14px;
+    }    #tour_2{
+        margin-left: 0;
+        width: 300px;
+        margin-left: 60px;
+    }
+}
+/**video**/
+#vid{
+    margin-top: 40px;
+}
+#vistara{
+    margin-top: -210px;
+   cursor: pointer;transition: 0.4s;
+   border-radius: 15px;
+}
+/**2nd slides**/
+#scnslide{cursor: pointer;}
+#nx_1{
+    border: 1px solid rgb(255, 255, 255);
+    color: red;
+    background: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top:75px;
+    margin-right:405px;;
+}
+#pre_1{
+    border: 1px solid rgb(255, 255, 255);
+    color: red;
+    background: red;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-top:75px;
+    margin-left: 405px;}
+    
+
+    /**cards**/
+    #cards_2 #crdspic{width: 400px;
+        margin-left: 65px;
+
+        cursor: pointer;
+        transition: 0.5s;
+        border-radius: 20px;
+
+    }
+    #pofcrds{
+        color: red;
+    }
+    @media (max-width:412px) {
+     #vid{
+        margin-top: 65px;
+        width: 300px;
+     }
+     #vistara{
+        margin-top: 65px;
+        width: 300px;
+     }
+     #vish #scnslide{
+        width: 300px;
+        height: 200px;
+     }
+     #pre_1{
+        margin-left: 0;
+        margin-left: 60px;
+     }
+     #nx_1{
+        margin-right: 0;
+        margin-right: 65px;
+     }
+
+     #cards_2 #crdspic  {
+        width: 300px;
+     }
+     #indian{
+        margin-left: 0;
+        margin-top: 25px;
+     }
+    }
+   #cards_2 #line_3{color: red;
+        height: 2;
+        width: 200px;
+        
+    }
+    /**sunimagepart**/
+    #sun{
+        position: relative;
+    }
+    #email{
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        margin-left: 1200px;
+
+    margin-top: -245px;
+       
+    }
+    #phone{
+        width:200px ;
+        height: 30px;
+        position: absolute;
+        margin-left: 1200px;
+        margin-top: -220px;
+
+    }
+    #pass{
+        width: 200px;
+        height: 30px;
+        position: absolute;
+        margin-left: 1200px;
+    margin-top: -165px;
+ 
+    }
+    #chec{
+    position: absolute;
+    margin-left: 230px;
+margin-top: -105px;
+
+}
+  #pof{
+    position: absolute;
+    margin-left: 1200px;
+    color: white;
+margin-top: -115px;
+width: 165px;
+font-size: x-small  ;
+
+  }
+  #sub{
+    position: absolute;
+    margin-left: 320px;
+    color: white;
+margin-top: -100px;
+border-radius: 25px;
+width: 120px;
+background: red;
+margin-left: 285px;
+
+  }
+#plan{
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    margin-left: 520px;
+margin-top: -265px; 
+color: white;
+font-size: larger;
+font-weight: 800;
+}
+
+@media (max-width:412px) {
+    #sun{
+        width: 350px;
+        height: 500px;
+    }
+    #sub{
+        margin-left: 0;
+        margin-top: -155px;
+        margin-left: -65px;
+    }
+    #chec{
+        margin-left: 0s;
+        margin-left: -120px;
+        margin-top: -185px;
+    }
+    #plan{
+        margin-left: 0;
+        width: 300px;
+        margin-left: 55px;
+        margin-top: -515px;
+        color: rgb(255, 255, 255);
+    }
+    #email{
+        margin-left: 0;
+        margin-left: 105px;
+        margin-top: -335px;
+    }
+    #pass{
+        margin-left: 0;
+        margin-left: 105px;
+        margin-top: -275px;
+    }
+    #phone{
+        margin-left: 0;
+        margin-left: 105px;
+        margin-top: -235px;
+    }
+    #pof{
+        margin-left: 0;
+        margin-left: 95px;
+        margin-top: -185px;
+    }
+}
+#t{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+}
+#lastsec{
+    border: 1px solid black;
+    background: #000000a5;
+    color: white;
+    height: 400px;
+}
+#cont{
+    margin-top: 60px;
+    margin-left: -665px;
+}
+#cll{
+    margin-left: -965px;
+}
+#no{
+    margin-left: -765px;
+    margin-top: -28px;
+}
+#toll{
+    margin-left: -465px;
+    margin-top: -35px;
+    color: rgba(255, 255, 255, 0.383);
+}
+#line{
+    width: 2px;
+    height: 65px;
+background: #ffffff6b;
+margin-top: -75px;
+}
+#lsrch{
+    width: 400px;
+    height: 40px;
+    border-radius: 25px;
+    margin-left: 620px;
+    margin-top: -465px;
+}
+#lsub{
+    width: 100px;
+    height: 30px;
+    border-radius: 25px;
+    background: red;
+    color: white;
+    margin-left: -120px;
+}
+#srchbut_1{
+    margin-top: -65px;
+}
+#line_2{
+    height: 2px;
+    width: 999px;
+    background: rgba(255, 255, 255, 0.456);
+    margin-top: 75px;
+}
+#end     ul li {
+    list-style: none;
+    display: inline;
+    margin: 45px;
+    cursor: pointer;
+  
+}
+#end     ul li:hover{
+    color: red;
+}
+#line_3{
+    height: 2px;
+    width: 999px;
+    background: rgba(255, 255, 255, 0.456);
+
+}
+#cir{
+    
+    height:50px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid white;
+   border-radius: 100%;
+   cursor: pointer;
+   transition:1s
+}
+#fb{
+    margin-top: 24px;
+}
+ #cir:hover, #cir_1:hover,#cir_2:hover,#cir_3:hover,#cir_4:hover,#cir_5:hover{
+box-shadow: inset 0 -50px 0 0 white;
+}
+
+#cir_1{
+    
+    height:50px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid white;
+   border-radius: 100%;
+   margin-left: 145px;
+   margin-top: -50px;
+   cursor: pointer;
+   transition:1s
+}
+#you{
+    margin-top: 24px;
+}
+#cir_2{
+    
+    height:50px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid white;
+   border-radius: 100%;
+   margin-left: 285px;
+   margin-top: -50px;
+   cursor: pointer;
+   transition:1s
+}
+#pin{
+    margin-top: 24px;
+}
+#cir_3{
+    
+    height:50px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid white;
+   border-radius: 100%;
+   margin-left: -145px;
+   margin-top: -50px;
+   cursor: pointer;
+   transition:1s
+}
+#twi{
+    margin-top: 24px;
+}
+#cir_4{
+    
+    height:50px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid white;
+   border-radius: 100%;
+   margin-left: -285px;
+   margin-top: -50px;
+   cursor: pointer;
+   transition:1s    
+}
+#link{
+    margin-top: 24px;
+}
+#cir_5{
+    
+    height:50px;
+    width: 50px;
+    text-align: center;
+    border: 1px solid white;
+   border-radius: 100%;
+   margin-left: -430px;
+   margin-top: -50px;
+   cursor: pointer;
+
+   transition:1s
+}
+#insta{
+    margin-top: 24px;
+}
+@media (max-width:412px){
+    #cont{
+        margin-left: 10px;
+    }
+    #cll{
+        margin-left: -265px;
+    }
+    #no{
+        margin-left: -80px;
+    }
+    #toll{
+        margin-left: 195px;
+    }
+    #line{
+        visibility: hidden;
+    }
+ #lsrch{
+        margin-left: -15px;
+        width: 350px;
+        margin-top: 85px;
+    }
+    #line_2{
+        width: 400px;
+    }
+  ul {
+display: none   ;
+    }
+   #line_3{
+    width: 32px;
+   }
+   #cir_5{
+   display: none;
+   }
+}

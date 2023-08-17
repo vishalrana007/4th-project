@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/042d05c8ea.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--about nav-->
+
+    <nav class="navbar navbar-expand-lg navbar-light" id="tk">
+        <div class="container-fluid" id="nabfirst">
+            <ul class="navbar-nav me-auto mb-1  mb-lg-0">
+                <i class="fa-solid fa-phone fa-sm mt-3" style="color: #df0727;" id="icon_1"></i>
+                <li class="nav-item" id="list_2">
+                    <a class="nav-link active" aria-current="page" href="#">IND Toll Free:-1800 209 2455</a>
+                </li>
+                <i class="fa-solid fa-phone fa-sm mt-3" style="color: #df0727;" id="callicon"></i>
+                <li class="nav-item" id="list_3">
+                    <a class="nav-link active" aria-current="page" href="#">US Toll Free:-1800 209 2455</a>
+                </li>
+                <i class="fa-solid fa-hands-holding-child mt-1" style="color: #ff0000;" id="child"></i>
+                <li class="nav-item" id="list_4">
+                    <a class="nav-link active" aria-current="page" href="#" onclick="wecare()">We cares</a>
+                </li>
+                <i class="fa-solid fa-location-dot mt-1" style="color: #ff0000;" id="loc"></i>
+                <li class="nav-item" id="list_5">
+                    <a class="nav-link active" aria-current="page" href="#" onclick="store()">Stores</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+   <div id="hl"></div>
+    <!--about bottom of the nav bar-->
+  <nav class="navbar navbar-expand-lg navbar-light " id="t">
+        <div class="container-fluid" id="t_2">
+            <a class="navbar-brand  text-light p-2 " id="hed">S</a>
+            <a class="navbar-brand  text-light p-2" id="hed">O</a>
+            <a class="navbar-brand  text-light p-2" id="hed">T</a>
+            <a class="navbar-brand  text-light p-2" id="hed">C</a>
+            <p id="para">For Holidays</p>
+            <i class="fa-solid fa-paper-plane fa-2xs" style="color: #ec0909;" id="plane"></i>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation" id="menuicon">
+                <span class="navbar-toggler-icon" id="sp"></span>
+            </button>
+            <div class="collapse navbar-collapse m-20" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="unor">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" id="indian">INDIAN HOLIDAYS
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">INTERNATIONAL HOLIDAYS</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">SHORT BREAKS</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" onclick="cruise()">CRUISE</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" onclick="flight()">FLIGHTS</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" onclick="hotel()">HOTELS</a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">OFFERS</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+
+
+    </nav>
+  
+    <form class="d-flex" id="srch">
+        <input class="form-control me-2" type="search" placeholder="Search Holidays for Destination Theme"
+            aria-label="viewport" id="search_bar">
+        <button class="btn btn-outline-success" type="submit" id="srbut" onclick="getVal()">Search</button>
+    </form>
+    <div id="carouselExampleCaptions" class="carousel slide mt-3    " data-bs-ride="carousel" id="sl_1">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" id="sl">
+            <div class="carousel-item active">
+                <img src="Big-Bargain-Banner-1920x545.jpg" class="d-block w-100" alt="..." id="pic_1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Hello There</h5>
+                    <p>This is Vishal Rana I hope you loved it.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Regional-Gujarati-Home-Banner-1920x545.jpg" class="d-block w-100" alt="..." id="pic_1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="BOOK-EASY-GO-EASY-Banner-1920x545.jpg" class="d-block w-100" alt="..." id="pic_1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Hello There</h5>
+                    <p>This is Vishal Rana I hope you loved it.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev" id="pre">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next" id="nxt">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+
+    </div>
+    <div id="likhawat">
+        <h2 id="hedo">Trending Indian Destinations</h2>
+        <p id="paraofhedo">India is a beautiful land of rich diversity, culture and adventures. It is the
+            seventh-largest country in the world, home to some of the most....readmore</p>
+    </div> 
+
+
+    <!--cards-->
+
+ <div class="row" id="tour_1">
+        <div class="card col-md-2">
+            <img class="card-img-top" src="Kashmir.jpg" id="tour" onclick="kashmir()">
+
+            <h4 id="kprice">Kashmir<br><br>
+                Starting Price<br>&#8377 25699/-
+            </h4>
+        </div>
+
+
+        <div class="card col-md-2">
+            <img class="card-img-top" src="Himachal1.jpg" id="tour" onclick="hp()">
+            <h4 id="kprice">Himachal Pradesh<br><br>Starting Price<br>&#8377 16699/-
+            </h4>
+
+        </div>
+
+        <div class="card col-md-2">
+            <img class="card-img-top" src="Gujarat-trn-img.jpg" id="tour" onclick="guj()">
+
+            <h4 id="kprice">Gujrat<br><br>Starting Price<br>&#8377 11699/-
+            </h4>
+        </div>
+        <div class="card col-md-2">
+            <img class="card-img-top" src="Kerala-trn-img.jpg" id="tour" onclick="kerela()">
+
+            <h4 id="kprice">Kerela<br><br>Starting Price<br>&#8377 22699/-
+            </h4>
+        </div>
+        <div class="card col-md-2">
+            <img class="card-img-top" src="Andaman1.jpg" id="tour" onclick="anda()">
+
+            <h4 id="kprice">Andaman<br><br>Starting Price<br>&#8377 12699/-
+            </h4>
+        </div>
+
+
+    </div>
+
+    <div id="likhawat_1">
+        <h2 id="hedo_1">Trending International Destinations</h2>
+        <p id="paraofhedo_1">An international holiday not only offers a breath of fresh air but is also a great way to
+            explore different parts of the world and get a new… read more</p>
+    </div>
+
+    <div class="row" id="tour_2">
+        <div class="card col-md-2">
+            <img class="card-img-top" src="Dubai.jpg" onclick=" dubai()" id="tour_3">
+
+            <h4 id="kprice">Dubai<br><br>Starting Price<br>&#8377 205699/-
+            </h4>
+        </div>
+
+
+        <div class="card col-md-2">
+            <img class="card-img-top" src="Japan-Banner.jpg" onclick="japan()" id="tour_3">
+            <h4 id="kprice">Japan<br><br>Starting Price<br>&#8377 162699/-
+            </h4>
+
+        </div>
+
+        <div class="card col-md-2">
+            <img class="card-img-top" src="South-Africa-Trnd.jpg" onclick="south()" id="tour_3">
+
+            <h4 id="kprice">South Africa<br><br>Starting Price<br>&#8377 131699/-
+            </h4>
+        </div>
+        <div class="card col-md-2">
+            <img class="card-img-top" src="Thailand.jpg" onclick="thailand()" id="tour_3">
+
+            <h4 id="kprice">Thailand<br><br>Starting Price<br>&#8377 225699/-
+            </h4>
+        </div>
+        <div class="card col-md-2">
+            <img class="card-img-top" src="Vietnam.jpg" onclick="vietnam()" id="tour_3">
+
+            <h4 id="kprice">Vietnam<br><br>Starting Price<br>&#8377 125699/-
+            </h4>
+        </div>
+
+
+    </div>
+    <center>
+        <div id="link_1">
+            <iframe width="350" height="215" src="https://www.youtube.com/embed/jpXQC-eILKw"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen id="vid"></iframe>
+            <img src="Vistara-Banner-440x266.jpg" id="vistara" width="350" height="215" onclick="vistara()">
+            <iframe width="350" height="215" src="https://www.youtube.com/embed/-ooVXNACuZk"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen id="vid"></iframe>
+        </div>
+        <!--secnd slides-->
+ 
+        <div id="carouselExampleControls" class="carousel slide mt-5" data-bs-ride="carousel" id="scnd">
+            <div class="carousel-inner" id="vish">
+                <div class="carousel-item active">
+                    <img src="Melbourne-Home-Banner-1185x278.jpg" class="d-block w-50  " alt="..." id="scnslide">
+                </div>
+                <div class="carousel-item">
+                    <img src="Turkiye-Home-Banner-1185x278.jpg" class="d-block w-50 " alt="..." id="scnslide">
+                </div>
+                <div class="carousel-item">
+                    <img src="Travel-Business-Asscoiate-Banner-1185x278.jpg" class="d-block w-50 " alt="..."
+                        id="scnslide">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev" id="pre_1">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next" id="nx_1">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--cards after slides-->
+        <div class="card-group mt-5" id="cards_2">
+            <div class="card">
+                <img src="Honeymoon-Destinations-in-India-in-May.jpg" class="card-img-top" alt="..." id="crdspic" onclick="honey()">
+                <div class="card-body">
+                    <p class="card-title" id="pofcrds">How to plan a budget trip to Andaman.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="egypt.jpg" class="card-img-top" alt="..." id="crdspic" onclick="pharrow()">
+                <div class="card-body">
+
+                    <p class="card-text" id="pofcrds">Valley of the kings where Pharos meet there gods. </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                </div>
+            </div>
+            <div class="card">
+                <img src="andaman-honeymoon-romantic-things.jpg" class="card-img-top" alt="..." id="crdspic" onclick="andaman()">
+                <div class="card-body">
+
+                    <p class="card-text" id="pofcrds">15 Best Honeymoon Destinations in India.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+
+                </div>
+            </div>
+        </div> 
+   <form id="image" class="mt-5">
+
+            <img src="sunset-landscape-mountains-clouds-4k-jj.jpg" id="sun" width="60%" height="300px">
+
+
+            <input type="email" class="form-control" id="email" placeholder="Email" aria-describedby="emailHelp" >
+            </div>
+            <div class="mb-3">
+
+                <input type="password" class="form-control" placeholder="Password" id="pass">
+            </div>
+            <div class="mb-3">
+
+                <input type="text" class="form-control" placeholder="Phone" id="phone">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="chec">
+                <p id="pof"> I hereby accept the Privacy Policy and I authorise Thomas Cook Group Companies to
+                    contact me</p>
+            </div>
+            <button type="submit" class="btn " id="sub" onclick="xyz()">Submit</button>
+
+            <p id="plan">PLAN YOUR HOLIDAYS WITH OUR ASSISTANCE,
+
+                JUST FILL IN YOUR DETAILS.
+            </p>
+
+
+        </form>
+        <div id="lastsec">
+            <h4 id="cont">
+                Contact Centralized Call Center
+            </h4>
+           <i class="fa-solid fa-phone fa-sm mt-3" style="color: #df0727;" id="cll"></i>
+            <h4 id="no">1800 209 3344 </h4>
+
+            <p id="toll">(Toll Free No.)</p> 
+            <p id="line"></p>
+            <div id="srchbut_1">
+                <input type="search" placeholder="Subscribe to our update/offers" id="lsrch">
+                <button id="lsub" >Search</button>
+            </div> 
+            <div id="end">
+                <p id="line_2"></p>
+                <ul>
+                    <li>TRAVEL GUIDELINES & ASSURED TRAVEL</li>
+                    <li>INDIA HOLIDAYS</li>
+                    <li>International Holidays</li>
+                    <li>ABOUT US</li>
+                    <li>TRAVEL & TOURISM</li>
+                    <li>SOTC INDIA</li>
+                </ul>
+                <p id="line_3"></p>
+            </div>
+            <div id="cir">
+                <i class="fa-brands fa-facebook fa-xl" style="color: #0e25f4;" id="fb" onclick="fb()"></i>
+            </div>
+            <div id="cir_1">
+                <i class="fa-brands fa-youtube fa-xl" style="color: #ec0b0b;" id="you" onclick="utube()"></i>
+            </div>
+            <div id="cir_2">
+                <i class="fa-brands fa-pinterest  fa-xl" style="color: #e21010;" id="pin" onclick="linkedin()"></i>
+            </div>
+            <div id="cir_3">
+                <i class="fa-brands fa-twitter fa-xl" style="color: #13b4ff;" id="twi" onclick="twiter()"></i>
+            </div>
+            <div id="cir_4">
+                <i class="fa-brands fa-linkedin fa-xl" style="color: #2b46f5;" id="link"></i>
+            </div>
+            <div id="cir_5">
+                <i class="fa-brands fa-instagram fa-xl" style="color: #f31ddd;" id="insta" onclick="insta()"></i>
+            </div>
+        </div>
+    </center>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</html>
